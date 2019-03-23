@@ -1,0 +1,14 @@
+kionix@e {
+	compatible = "kionix,kxtj2-1009";
+	reg = <0xe>;
+	interrupt-parent = <0x48>;
+	interrupts = <112 0x2002>;
+	vdd-supply = <0x4b>;
+	vio-supply = <0x4c>;
+	kionix,min_interval = <0x5>;
+	kionix,poll_interval = <0x64>;
+	kionix,accel_direction = <0x2>;
+	kionix,accel_irq_use_drdy = <0x0>;
+	kionix,accel_res = <0xc>;
+	kionix,accel_g_range = <0x2>;
+};
